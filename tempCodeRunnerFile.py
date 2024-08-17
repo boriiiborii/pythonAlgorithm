@@ -1,2 +1,2 @@
 
-    isPrime = [True]*(limit+1)
+        print(i)
