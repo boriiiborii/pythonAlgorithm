@@ -1,0 +1,9 @@
+times = input()
+score = list(map(int, input().split()))
+maxScore = max(score)
+
+result = 0
+for i in score:
+    result += i/maxScore*100
+
+print(result/float(len(score)))
